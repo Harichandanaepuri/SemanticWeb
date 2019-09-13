@@ -1,0 +1,40 @@
+<rdf:RDF
+      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+      xmlns:admin="http://webns.net/mvcb/">
+<foaf:PersonalProfileDocument rdf:about="">
+  <foaf:maker rdf:resource="#me"/>
+  <foaf:primaryTopic rdf:resource="#me"/>
+  <admin:generatorAgent rdf:resource="http://www.ldodds.com/foaf/foaf-a-matic"/>
+  <admin:errorReportsTo rdf:resource="mailto:leigh@ldodds.com"/>
+</foaf:PersonalProfileDocument>
+<foaf:Person rdf:ID="me">
+<foaf:name>Harichandana Epuri</foaf:name>
+<foaf:title>Ms</foaf:title>
+<foaf:givenname>Harichandana</foaf:givenname>
+<foaf:family_name>Epuri</foaf:family_name>
+<foaf:nick>Chandu</foaf:nick>
+<foaf:mbox rdf:resource="mailto:hxe170000@utdallas.edu"/>
+<foaf:homepage rdf:resource="https://personal.utdallas.edu/~hxe170000/"/>
+<foaf:depiction rdf:resource="picture.png"/>
+<foaf:phone rdf:resource="tel:4694030808"/>
+<foaf:workplaceHomepage rdf:resource="https://personal.utdallas.edu/~hxe170000/"/>
+<foaf:workInfoHomepage rdf:resource="Student"/>
+<foaf:schoolHomepage rdf:resource="https://www.utdallas.edu/"/>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Shilpa</foaf:name>
+<foaf:mbox rdf:resource="mailto:catsycool@gmail.com"/>
+<rdfs:seeAlso rdf:resource="https://www.utdallas.edu/shilpa"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>Rekha</foaf:name>
+<foaf:mbox rdf:resource="mailto:wtproject0613@gmail.com"/>
+<rdfs:seeAlso rdf:resource="https://www.utdallas.edu/rekha"/></foaf:Person></foaf:knows>
+<foaf:knows>
+<foaf:Person>
+<foaf:name>chandana</foaf:name>
+<foaf:mbox rdf:resource="mailto:harichandana281997@gmail.com"/>
+<rdfs:seeAlso rdf:resource="https://www.utdallas.edu/hari"/></foaf:Person></foaf:knows></foaf:Person>
+</rdf:RDF>

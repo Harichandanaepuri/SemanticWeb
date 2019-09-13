@@ -1,0 +1,38 @@
+<http://utdallas/semclass/874659> <http://www.w3.org/2001/vcard-rdf/3.0#FN> "Dr. May Westford" .
+<http://utdallas/semclass/874659> <http://www.w3.org/2001/vcard-rdf/3.0#BDAY> "March 28, 1965" .
+<http://utdallas/semclass/874659> <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL> "May.Westford@consolidatedsem.com" .
+<http://utdallas/semclass/874659> <http://www.w3.org/2001/vcard-rdf/3.0#TITLE> "North America Division Vice President" .
+<http://utdallas/semclass/874659> <http://www.w3.org/2001/vcard-rdf/3.0#ORG> "Consolidated Semantics, U.S" .
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/PersonalProfileDocument> .
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf> <http://xmlns.com/foaf/0.1/maker> <file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf#me> .
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf> <http://xmlns.com/foaf/0.1/primaryTopic> <file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf#me> .
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf> <http://webns.net/mvcb/generatorAgent> <http://www.ldodds.com/foaf/foaf-a-matic> .
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf> <http://webns.net/mvcb/errorReportsTo> <mailto:leigh@ldodds.com> .
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf#me> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/name> "Harichandana Epuri" .
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/title> "Ms" .
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/givenname> "Harichandana" .
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/family_name> "Epuri" .
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/nick> "Chandu" .
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/mbox> <mailto:hxe170000@utdallas.edu> .
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/homepage> <https://personal.utdallas.edu/~hxe170000/> .
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/depiction> <file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/picture.png> .
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/phone> <tel:4694030808> .
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/workplaceHomepage> <https://personal.utdallas.edu/~hxe170000/> .
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/workInfoHomepage> <file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/Student> .
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/schoolHomepage> <https://www.utdallas.edu/> .
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/knows> _:B4759c413X2D3477X2D4cd8X2Da495X2D815c1a02b216 .
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/knows> _:B86cf354eX2D01d9X2D42a7X2D9de2X2D402dbc2ed24b .
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf#me> <http://xmlns.com/foaf/0.1/knows> _:B888d42a5X2Dcc01X2D44e1X2DabacX2D7f630df30c30 .
+_:B4759c413X2D3477X2D4cd8X2Da495X2D815c1a02b216 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:B4759c413X2D3477X2D4cd8X2Da495X2D815c1a02b216 <http://xmlns.com/foaf/0.1/name> "Shilpa" .
+_:B4759c413X2D3477X2D4cd8X2Da495X2D815c1a02b216 <http://xmlns.com/foaf/0.1/mbox> <mailto:catsycool@gmail.com> .
+_:B4759c413X2D3477X2D4cd8X2Da495X2D815c1a02b216 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.utdallas.edu/shilpa> .
+_:B86cf354eX2D01d9X2D42a7X2D9de2X2D402dbc2ed24b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:B86cf354eX2D01d9X2D42a7X2D9de2X2D402dbc2ed24b <http://xmlns.com/foaf/0.1/name> "Rekha" .
+_:B86cf354eX2D01d9X2D42a7X2D9de2X2D402dbc2ed24b <http://xmlns.com/foaf/0.1/mbox> <mailto:wtproject0613@gmail.com> .
+_:B86cf354eX2D01d9X2D42a7X2D9de2X2D402dbc2ed24b <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.utdallas.edu/rekha> .
+_:B888d42a5X2Dcc01X2D44e1X2DabacX2D7f630df30c30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://xmlns.com/foaf/0.1/Person> .
+_:B888d42a5X2Dcc01X2D44e1X2DabacX2D7f630df30c30 <http://xmlns.com/foaf/0.1/name> "chandana" .
+_:B888d42a5X2Dcc01X2D44e1X2DabacX2D7f630df30c30 <http://xmlns.com/foaf/0.1/mbox> <mailto:harichandana281997@gmail.com> .
+_:B888d42a5X2Dcc01X2D44e1X2DabacX2D7f630df30c30 <http://www.w3.org/2000/01/rdf-schema#seeAlso> <https://www.utdallas.edu/hari> .

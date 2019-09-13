@@ -1,0 +1,53 @@
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix admin: <http://webns.net/mvcb/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+
+<http://utdallas/semclass/874659>
+        <http://www.w3.org/2001/vcard-rdf/3.0#BDAY>
+                "March 28, 1965" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#EMAIL>
+                "May.Westford@consolidatedsem.com" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Dr. May Westford" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#ORG>
+                "Consolidated Semantics, U.S" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#TITLE>
+                "North America Division Vice President" .
+
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf>
+        a                     foaf:PersonalProfileDocument ;
+        admin:errorReportsTo  <mailto:leigh@ldodds.com> ;
+        admin:generatorAgent  <http://www.ldodds.com/foaf/foaf-a-matic> ;
+        foaf:maker            <file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf#me> ;
+        foaf:primaryTopic     <file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf#me> .
+
+<file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/HXE170000_FOAFFriends.rdf#me>
+        a                       foaf:Person ;
+        foaf:depiction          <file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/picture.png> ;
+        foaf:family_name        "Epuri" ;
+        foaf:givenname          "Harichandana" ;
+        foaf:homepage           <https://personal.utdallas.edu/~hxe170000/> ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <https://www.utdallas.edu/shilpa> ;
+                                  foaf:mbox     <mailto:catsycool@gmail.com> ;
+                                  foaf:name     "Shilpa"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <https://www.utdallas.edu/rekha> ;
+                                  foaf:mbox     <mailto:wtproject0613@gmail.com> ;
+                                  foaf:name     "Rekha"
+                                ] ;
+        foaf:knows              [ a             foaf:Person ;
+                                  rdfs:seeAlso  <https://www.utdallas.edu/hari> ;
+                                  foaf:mbox     <mailto:harichandana281997@gmail.com> ;
+                                  foaf:name     "chandana"
+                                ] ;
+        foaf:mbox               <mailto:hxe170000@utdallas.edu> ;
+        foaf:name               "Harichandana Epuri" ;
+        foaf:nick               "Chandu" ;
+        foaf:phone              <tel:4694030808> ;
+        foaf:schoolHomepage     <https://www.utdallas.edu/> ;
+        foaf:title              "Ms" ;
+        foaf:workInfoHomepage   <file:///C:/Users/haric/OneDrive/Documents/Semantic%20web/lab1/Student> ;
+        foaf:workplaceHomepage  <https://personal.utdallas.edu/~hxe170000/> .
