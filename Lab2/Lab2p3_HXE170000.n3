@@ -1,0 +1,163 @@
+<http://utdallas/semclass#person-ByronHaskin>
+        a       <http://utdallas/semclass#person-> ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Byron Haskin" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#N>
+                [ <http://www.w3.org/2001/vcard-rdf/3.0#Family>
+                          "Haskin" ;
+                  <http://www.w3.org/2001/vcard-rdf/3.0#Given>
+                          "Byron"
+                ] ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#TITLE>
+                "director" .
+
+<http://utdallas/semclass#person-StevenSpielberg>
+        a       <http://utdallas/semclass#person-> ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Steven Spielberg" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#N>
+                [ <http://www.w3.org/2001/vcard-rdf/3.0#Family>
+                          "Spielberg" ;
+                  <http://www.w3.org/2001/vcard-rdf/3.0#Given>
+                          "Steven"
+                ] ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#TITLE>
+                "director" .
+
+<http://utdallas/semclass#person-HowardKoch>
+        a       <http://utdallas/semclass#person-> ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Howard Koch" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#N>
+                [ <http://www.w3.org/2001/vcard-rdf/3.0#Family>
+                          "Koch" ;
+                  <http://www.w3.org/2001/vcard-rdf/3.0#Given>
+                          "Howard"
+                ] ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#TITLE>
+                "writer" .
+
+<http://utdallas/semclass#person-GeorgePal>
+        a       <http://utdallas/semclass#person-> ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "George Pal" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#N>
+                [ <http://www.w3.org/2001/vcard-rdf/3.0#Family>
+                          "Pal" ;
+                  <http://www.w3.org/2001/vcard-rdf/3.0#Given>
+                          "George"
+                ] ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#TITLE>
+                "director" .
+
+<http://utdallas/semclass#person-SimonWells>
+        a       <http://utdallas/semclass#person-> ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Simon Wells" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#N>
+                [ <http://www.w3.org/2001/vcard-rdf/3.0#Family>
+                          "Wells" ;
+                  <http://www.w3.org/2001/vcard-rdf/3.0#Given>
+                          "Simon"
+                ] ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#TITLE>
+                "director" .
+
+<http://utdallas/semclass#person-GoreVerbinski>
+        a       <http://utdallas/semclass#person-> ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Gore Verbinski" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#N>
+                [ <http://www.w3.org/2001/vcard-rdf/3.0#Family>
+                          "Verbinski" ;
+                  <http://www.w3.org/2001/vcard-rdf/3.0#Given>
+                          "Gore"
+                ] ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#TITLE>
+                "director" .
+
+<http://utdallas/semclass#person-HGWells>
+        a       <http://utdallas/semclass#person-> ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#FN>
+                "Wells HG" ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#N>
+                [ <http://www.w3.org/2001/vcard-rdf/3.0#Family>
+                          "HG" ;
+                  <http://www.w3.org/2001/vcard-rdf/3.0#Given>
+                          "Wells"
+                ] ;
+        <http://www.w3.org/2001/vcard-rdf/3.0#TITLE>
+                "author" .
+
+<http://utdallas/semclass#Book-TheWarOfTheWorlds>
+        a       <http://utdallas/semclass#Book-> ;
+        <http://purl.org/dc/elements/1.1/creator>
+                <http://utdallas/semclass#person-HGWells> ;
+        <http://purl.org/dc/elements/1.1/date>
+                "1897" ;
+        <http://purl.org/dc/elements/1.1/title>
+                "The War Of The Worlds" .
+
+<http://utdallas/semclass#Book-TheTimeMachine>
+        a       <http://utdallas/semclass#Book-> ;
+        <http://purl.org/dc/elements/1.1/creator>
+                <http://utdallas/semclass#person-HGWells> ;
+        <http://purl.org/dc/elements/1.1/date>
+                "1895" ;
+        <http://purl.org/dc/elements/1.1/title>
+                "The Time Machine" .
+
+<http://utdallas/semclass#Movie-TheWarOfTheWorlds1>
+        a       <http://utdallas/semclass#Movie-> ;
+        <http://purl.org/dc/elements/1.1/title>
+                "The War Of The Worlds" ;
+        <http://utdallas/semclass#booklink>
+                <http://utdallas/semclass#Book-TheWarOfTheWorlds> ;
+        <http://utdallas/semclass#directorlink>
+                <http://utdallas/semclass#person-ByronHaskin> ;
+        <http://utdallas/semclass#yearlink>
+                "1953" .
+
+<http://utdallas/semclass#Movie-TheWarOfTheWorlds2>
+        a       <http://utdallas/semclass#Movie-> ;
+        <http://purl.org/dc/elements/1.1/title>
+                "The War Of The Worlds" ;
+        <http://utdallas/semclass#booklink>
+                <http://utdallas/semclass#Book-TheWarOfTheWorlds> ;
+        <http://utdallas/semclass#directorlink>
+                <http://utdallas/semclass#person-StevenSpielberg> ;
+        <http://utdallas/semclass#yearlink>
+                "2005" .
+
+<http://utdallas/semclass#Movie-TheWarOfTheWorldsBroadCast>
+        a       <http://utdallas/semclass#Movie-TheWarOfTheWorldsBroadCast> ;
+        <http://purl.org/dc/elements/1.1/title>
+                "The War Of The Worlds" ;
+        <http://utdallas/semclass#booklink>
+                <http://utdallas/semclass#Book-TheWarOfTheWorlds> ;
+        <http://utdallas/semclass#broadCastWriter>
+                <http://utdallas/semclass#person-HowardKoch> ;
+        <http://utdallas/semclass#yearlink>
+                "1938" .
+
+<http://utdallas/semclass#Movie-TheTimeMachine1>
+        a       <http://utdallas/semclass#Movie-> ;
+        <http://purl.org/dc/elements/1.1/title>
+                "The Time Machine" ;
+        <http://utdallas/semclass#booklink>
+                <http://utdallas/semclass#Book-TheTimeMachine> ;
+        <http://utdallas/semclass#directorlink>
+                <http://utdallas/semclass#person-GeorgePal> ;
+        <http://utdallas/semclass#yearlink>
+                "1960" .
+
+<http://utdallas/semclass#Movie-TheTimeMachine2>
+        a       <http://utdallas/semclass#Movie-> ;
+        <http://purl.org/dc/elements/1.1/title>
+                "The Time Machine" ;
+        <http://utdallas/semclass#booklink>
+                <http://utdallas/semclass#Book-TheTimeMachine> ;
+        <http://utdallas/semclass#directorlink>
+                <http://utdallas/semclass#person-SimonWells> , <http://utdallas/semclass#person-GoreVerbinski> ;
+        <http://utdallas/semclass#yearlink>
+                "2002" .

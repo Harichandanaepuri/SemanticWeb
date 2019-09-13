@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:vcard="http://www.w3.org/2001/vcard-rdf/3.0#"
+    xmlns:j.0="http://utdallas/semclass#">
+  <j.0:Movie- rdf:about="http://utdallas/semclass#Movie-TheWarOfTheWorlds2">
+    <dc:title>The War Of The Worlds</dc:title>
+    <j.0:yearlink>2005</j.0:yearlink>
+    <j.0:directorlink>
+      <j.0:person- rdf:about="http://utdallas/semclass#person-StevenSpielberg">
+        <vcard:FN>Steven Spielberg</vcard:FN>
+        <vcard:N rdf:parseType="Resource">
+          <vcard:Given>Steven</vcard:Given>
+          <vcard:Family>Spielberg</vcard:Family>
+        </vcard:N>
+        <vcard:TITLE>director</vcard:TITLE>
+      </j.0:person->
+    </j.0:directorlink>
+    <j.0:booklink>
+      <j.0:Book- rdf:about="http://utdallas/semclass#Book-TheWarOfTheWorlds">
+        <dc:creator>
+          <j.0:person- rdf:about="http://utdallas/semclass#person-HGWells">
+            <vcard:FN>Wells HG</vcard:FN>
+            <vcard:N rdf:parseType="Resource">
+              <vcard:Given>Wells</vcard:Given>
+              <vcard:Family>HG</vcard:Family>
+            </vcard:N>
+            <vcard:TITLE>author</vcard:TITLE>
+          </j.0:person->
+        </dc:creator>
+        <dc:title>The War Of The Worlds</dc:title>
+        <dc:date>1897</dc:date>
+      </j.0:Book->
+    </j.0:booklink>
+  </j.0:Movie->
+  <j.0:Movie- rdf:about="http://utdallas/semclass#Movie-TheWarOfTheWorlds1">
+    <dc:title>The War Of The Worlds</dc:title>
+    <j.0:yearlink>1953</j.0:yearlink>
+    <j.0:directorlink>
+      <j.0:person- rdf:about="http://utdallas/semclass#person-ByronHaskin">
+        <vcard:FN>Byron Haskin</vcard:FN>
+        <vcard:N rdf:parseType="Resource">
+          <vcard:Given>Byron</vcard:Given>
+          <vcard:Family>Haskin</vcard:Family>
+        </vcard:N>
+        <vcard:TITLE>director</vcard:TITLE>
+      </j.0:person->
+    </j.0:directorlink>
+    <j.0:booklink rdf:resource="http://utdallas/semclass#Book-TheWarOfTheWorlds"/>
+  </j.0:Movie->
+  <j.0:Movie- rdf:about="http://utdallas/semclass#Movie-TheTimeMachine1">
+    <dc:title>The Time Machine</dc:title>
+    <j.0:yearlink>1960</j.0:yearlink>
+    <j.0:directorlink>
+      <j.0:person- rdf:about="http://utdallas/semclass#person-GeorgePal">
+        <vcard:FN>George Pal</vcard:FN>
+        <vcard:N rdf:parseType="Resource">
+          <vcard:Given>George</vcard:Given>
+          <vcard:Family>Pal</vcard:Family>
+        </vcard:N>
+        <vcard:TITLE>director</vcard:TITLE>
+      </j.0:person->
+    </j.0:directorlink>
+    <j.0:booklink>
+      <j.0:Book- rdf:about="http://utdallas/semclass#Book-TheTimeMachine">
+        <dc:creator rdf:resource="http://utdallas/semclass#person-HGWells"/>
+        <dc:title>The Time Machine</dc:title>
+        <dc:date>1895</dc:date>
+      </j.0:Book->
+    </j.0:booklink>
+  </j.0:Movie->
+  <j.0:Movie- rdf:about="http://utdallas/semclass#Movie-TheTimeMachine2">
+    <dc:title>The Time Machine</dc:title>
+    <j.0:yearlink>2002</j.0:yearlink>
+    <j.0:directorlink>
+      <j.0:person- rdf:about="http://utdallas/semclass#person-SimonWells">
+        <vcard:FN>Simon Wells</vcard:FN>
+        <vcard:N rdf:parseType="Resource">
+          <vcard:Given>Simon</vcard:Given>
+          <vcard:Family>Wells</vcard:Family>
+        </vcard:N>
+        <vcard:TITLE>director</vcard:TITLE>
+      </j.0:person->
+    </j.0:directorlink>
+    <j.0:directorlink>
+      <j.0:person- rdf:about="http://utdallas/semclass#person-GoreVerbinski">
+        <vcard:FN>Gore Verbinski</vcard:FN>
+        <vcard:N rdf:parseType="Resource">
+          <vcard:Given>Gore</vcard:Given>
+          <vcard:Family>Verbinski</vcard:Family>
+        </vcard:N>
+        <vcard:TITLE>director</vcard:TITLE>
+      </j.0:person->
+    </j.0:directorlink>
+    <j.0:booklink rdf:resource="http://utdallas/semclass#Book-TheTimeMachine"/>
+  </j.0:Movie->
+  <j.0:Movie-TheWarOfTheWorldsBroadCast rdf:about="http://utdallas/semclass#Movie-TheWarOfTheWorldsBroadCast">
+    <dc:title>The War Of The Worlds</dc:title>
+    <j.0:yearlink>1938</j.0:yearlink>
+    <j.0:booklink rdf:resource="http://utdallas/semclass#Book-TheWarOfTheWorlds"/>
+    <j.0:broadCastWriter>
+      <j.0:person- rdf:about="http://utdallas/semclass#person-HowardKoch">
+        <vcard:FN>Howard Koch</vcard:FN>
+        <vcard:N rdf:parseType="Resource">
+          <vcard:Given>Howard</vcard:Given>
+          <vcard:Family>Koch</vcard:Family>
+        </vcard:N>
+        <vcard:TITLE>writer</vcard:TITLE>
+      </j.0:person->
+    </j.0:broadCastWriter>
+  </j.0:Movie-TheWarOfTheWorldsBroadCast>
+</rdf:RDF>
