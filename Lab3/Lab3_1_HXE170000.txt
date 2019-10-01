@@ -1,0 +1,99 @@
+#Query 1:
+
+prefix vCard: <http://www.w3.org/2001/vcard-rdf/3.0#>
+prefix info: <http://somewhere/peopleInfo#>
+SELECT ?subject
+WHERE {?subject vCard:FN "Jane Smith" .}
+
+Query Result:  Found 1 solutions in 0.147 seconds.
+
+?subject
+
+Jane Smith
+
+-------------------------------------------------------------------------------------------------
+#Query 2
+
+prefix vCard: <http://www.w3.org/2001/vcard-rdf/3.0#>
+prefix info: <http://somewhere/peopleInfo#>
+SELECT ?name
+WHERE {?subject vCard:FN ?name}
+
+Query Result:  Found 4 solutions in 0.106 seconds.
+
+?name
+
+Sarah Parker
+Bobby Smith
+Jane Smith
+Matt Parker
+
+-------------------------------------------------------------------------------------------------
+#Query 3
+
+prefix vCard: <http://www.w3.org/2001/vcard-rdf/3.0#>
+prefix info: <http://somewhere/peopleInfo#>
+SELECT ?subject ?age ?formattedName
+WHERE {?subject info:age ?age.
+?subject vCard:FN ?formattedName .
+}
+
+Query Result:  Found 3 solutions in 0.105 seconds.
+
+?subject       ?age   ?formattedName
+
+Sarah Parker   25     Sarah Parker
+Robert Smith   27     Bobby Smith
+Matt Parker    23     Matt Parker
+
+-------------------------------------------------------------------------------------------------
+#Query 4
+
+prefix vCard: <http://www.w3.org/2001/vcard-rdf/3.0#>
+prefix info: <http://somewhere/peopleInfo#>
+SELECT ?subject ?age ?formattedName
+WHERE {?subject info:age ?age.
+FILTER (?age >= "25")
+?subject vCard:FN ?formattedName .
+}
+
+Query Result:  Found 2 solutions in 0.104 seconds.
+
+?subject       ?age   ?formattedName
+
+Sarah Parker   25     Sarah Parker
+Robert Smith   27     Bobby Smith
+
+-------------------------------------------------------------------------------------------------
+#Query 5
+
+prefix vCard: <http://www.w3.org/2001/vcard-rdf/3.0#>
+prefix info: <http://somewhere/peopleInfo#>
+SELECT ?IRI ?givenName
+WHERE {
+       ?IRI info:age  ?age .
+       ?IRI vCard:N ?bn .
+       ?bn vCard:Given  ?givenName
+}
+
+Query Result:  Found 3 solutions in 0.104 seconds.
+
+?IRI           ?givenName
+
+Sarah Parker   Sarah
+Robert Smith   Bobby
+Matt Parker    Matthew
+
+
+
+
+
+
+
+
+
+
+
+
+
+

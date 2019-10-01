@@ -1,0 +1,510 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rs="http://www.w3.org/2001/sw/DataAccess/tests/result-set#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rs:ResultSet>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>Scientific Center for Quarantine and Zoonotic Infections</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#target"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>0</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#injuries"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>0</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#fatalities"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>1</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#STAT_TGT_MED"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>43.255051</rs:value>
+        <rs:variable>o2</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+        <rs:variable>p2</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:nodeID="A0"/>
+        <rs:variable>o1</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+        <rs:variable>p1</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:nodeID="A1"/>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#ADR"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>0</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#STAT_TGT_ED"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>Russia and NIS</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#REGION"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>incident</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>0</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#STAT_TGT_INDISCRIM"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:resultVariable>o1</rs:resultVariable>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>Attempted Acquisition</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#STAT_EVENT"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>Lone actor (s)</rs:value>
+        <rs:variable>o2</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#Orgunit"/>
+        <rs:variable>p2</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:nodeID="A2"/>
+        <rs:variable>o1</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#ORG"/>
+        <rs:variable>p1</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://urn.monterey.org/incidents#organization1621"/>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#ORG"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:resultVariable>o2</rs:resultVariable>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>Type 2: Criminally Motivated</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#STAT_INCIDENT"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>LNKT</rs:value>
+        <rs:variable>o2</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#Orgunit_soundsLike"/>
+        <rs:variable>p2</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:nodeID="A2"/>
+        <rs:variable>o1</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#ORG"/>
+        <rs:variable>p1</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://urn.monterey.org/incidents#organization1621"/>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#ORG"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>0</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#STAT_TGT_BUS"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>On 4 November 2002, an unidentified man entered the Scientific Center for Quarantine and Zoonotic Infections in Almaty, Kazakhstan.[A,B]  According to authorities the man was not an employee at the research facility and was attempting to steal test tubes.  The man however was arrested by the facilities security before he could carry out his plan.[A]  It was not reported which substance the man was attempting to steal.</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#incidentDescription"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>0</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#STAT_TGT_UNK"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>unknown biological agent</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#AGENT"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>0</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#SUSPECTED"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://urn.monterey.org/incidents#incident"/>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>0</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#G_SUSPECTED"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:size rdf:datatype="http://www.w3.org/2001/XMLSchema#int"
+    >39</rs:size>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>2002-11-04</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://ebiquity.umbc.edu/ontology/event.owl#startDate"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>0</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#STAT_TGT_NA"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>biological</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#CBRN"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:resultVariable>o</rs:resultVariable>
+    <rs:resultVariable>p1</rs:resultVariable>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>[A] “Concern over Kazakhstan Bio-theft Bid,” CNN News (5 November 2002); Internet, available from http://www.cnn.com, accessed on 11/19/02.
+    [B] Alena Kim “Intruder Apprehended in Kazakh Biological We</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://purl.org/dc/elements/1.1/source"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>1621</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://purl.org/dc/elements/1.1/identifier"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>76.912628</rs:value>
+        <rs:variable>o2</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+        <rs:variable>p2</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:nodeID="A0"/>
+        <rs:variable>o1</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#Point"/>
+        <rs:variable>p1</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:nodeID="A1"/>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#ADR"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>Kazakhstan</rs:value>
+        <rs:variable>o1</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#Country"/>
+        <rs:variable>p1</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:nodeID="A1"/>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#ADR"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>Almaty</rs:value>
+        <rs:variable>o1</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#Locality"/>
+        <rs:variable>p1</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:nodeID="A1"/>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#ADR"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://urn.monterey.org/incidents#organization"/>
+        <rs:variable>o1</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+        <rs:variable>p1</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://urn.monterey.org/incidents#organization1621"/>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#ORG"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>2006-10-17 13:47:01</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#LAST_MODIFIED"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>0</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#STAT_TGT_ORG"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>0</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#STAT_TGT_GOVT"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>To steal test-tubes</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#SPEC_MOTIVE"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>2003-03-07 00:00:00</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#CREATED"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:resultVariable>p</rs:resultVariable>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>0</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#STAT_TGT_AGRO"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:resultVariable>p2</rs:resultVariable>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>0</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#STAT_TGT_IND"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>organization</rs:value>
+        <rs:variable>o1</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <rs:variable>p1</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://urn.monterey.org/incidents#organization1621"/>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#ORG"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>To Fulfill Individualized Objective</rs:value>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://blackbook.com/terms#STAT_MOTIVE"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+    <rs:solution rdf:parseType="Resource">
+      <rs:binding rdf:parseType="Resource">
+        <rs:value>unknown</rs:value>
+        <rs:variable>o1</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://purl.org/dc/elements/1.1/source"/>
+        <rs:variable>p1</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://urn.monterey.org/incidents#organization1621"/>
+        <rs:variable>o</rs:variable>
+      </rs:binding>
+      <rs:binding rdf:parseType="Resource">
+        <rs:value rdf:resource="http://www.w3.org/2001/vcard-rdf/3.0#ORG"/>
+        <rs:variable>p</rs:variable>
+      </rs:binding>
+    </rs:solution>
+  </rs:ResultSet>
+</rdf:RDF>
